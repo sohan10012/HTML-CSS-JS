@@ -1,0 +1,131 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+}
+
+h1, p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+}
+
+input[type="file"] {
+    padding: 1px 2px;
+}
+
+.inline{
+    display: inline; 
+}
+
+a{
+    color:#dfdfe2;
+}
+
+input.submit {
+    background-color: #3b3b4f; 
+    color: white; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    margin-left: 90px;
+    cursor: pointer; 
+    border: none; 
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+input.submit:hover {
+    background-color: #45a049;
+}
+
+body.secondpage {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1.secs {
+    color: #27a69a;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+p.secss {
+    color: #555;
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+/* Add some padding around the elements for smaller screens */
+@media (max-width: 768px) {
+    body.secondpage {
+        padding: 2rem;
+    }
+}
+
