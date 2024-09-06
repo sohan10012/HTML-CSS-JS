@@ -30,9 +30,9 @@ Welcome to the Stopwatch Project! This project is a simple yet functional stopwa
 2. **Open the `index.html` File**:
    - Simply open the `index.html` file in your web browser to start using the stopwatch.
 
-## Screenshot
+## Screenshots
 
-Upload a screenshot of your project [here](#).
+![App Screenshot](https://github.com/sohan10012/JavaScript/blob/master/Screenshot.png)
 
 ## Contributing
 
