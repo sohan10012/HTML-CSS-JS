@@ -27,22 +27,17 @@
 
 ## Usage
 
-# Clone the repository without checking out files
-git clone --no-checkout https://github.com/sohan10012/HTML-CSS-JS.git
+## Usage
 
-# Navigate into the repository directory
-cd HTML-CSS-JS
-
-# Initialize sparse-checkout
-git sparse-checkout init --cone
-
-# Set the folder you want to clone
-git sparse-checkout set "Registration form"
-
-# Checkout the files
-git checkout
-
-# Open `index.html` in your browser** to view the form.
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/sohan10012/registration-form.git
+    ```
+2. **Navigate to the project directory**:
+    ```bash
+    cd registration-form
+    ```
+3. **Open `index.html` in your browser** to view the form.
 
 ## File Structure
 
