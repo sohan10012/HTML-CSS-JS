@@ -6,8 +6,8 @@
 - Technologies Used
 - Usage
 - File Structure
+- Screenshot
 - Contributing
-- License
 
 ## Features
 
@@ -42,6 +42,10 @@
 - `index.html`: The main HTML file containing the registration form.
 - `registration.css`: The CSS file for styling the form.
 - `registration.js`: The JavaScript file for client-side functionality.
+  
+## Screenshots
+
+![Project Screenshot](Stopwatchimage.png)
 
 ## Contributing
 
