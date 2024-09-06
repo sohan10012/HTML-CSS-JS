@@ -21,14 +21,27 @@ Welcome to the Stopwatch Project! This project is a simple yet functional stopwa
 
 ## How to Use
 
-1. **Clone the Repository**:
+1. **Clone the repository**:
+    ```bash
+    git clone --no-checkout https://github.com/sohan10012/HTML-CSS-JS.git
+    ```
+2. **Navigate to the project directory**:
+    ```bash
+    cd HTML-CSS-JS
+    ```
+3. **Initialize sparse-checkout**:
    ```bash
-   git clone https://github.com/your-username/stopwatch-project.git
-   cd stopwatch-project
-   ```
-
-2. **Open the `index.html` File**:
-   - Simply open the `index.html` file in your web browser to start using the stopwatch.
+    git sparse-checkout init --cone
+    ```
+4. **Set the folder you want to clone**:
+   ```bash
+    git sparse-checkout set "Stopwatch"
+    ```  
+5. **Checkout the files**:
+   ```bash
+    git checkout
+    ```    
+3. **Open `index.html` in your browser** to view the form.
 
 ## Screenshots
 
