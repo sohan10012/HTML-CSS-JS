@@ -47,7 +47,7 @@
    ```bash
     git checkout
     ```    
-3. **Open `index.html` in your browser** to view the form.
+6. **Open `index.html` in your browser** to view the form.
 
 ## File Structure
 
