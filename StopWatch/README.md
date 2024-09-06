@@ -32,7 +32,7 @@ Welcome to the Stopwatch Project! This project is a simple yet functional stopwa
 
 ## Screenshots
 
-![Project Screenshot](StopWatch/Stopwatchimage.png)
+![Project Screenshot](Stopwatchimage.png)
 
 ## Contributing
 
