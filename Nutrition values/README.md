@@ -39,7 +39,7 @@
 
 ## Screenshot
 
-!Project Screenshot(img.png).
+![Project Screenshot](img.png)
 
 ## Contributing
 
