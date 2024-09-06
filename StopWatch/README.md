@@ -1,4 +1,4 @@
-Here's a creative and simple README file for your stopwatch project:
+
 
 ---
 
