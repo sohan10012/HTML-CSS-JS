@@ -31,12 +31,24 @@
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/sohan10012/registration-form.git
+    git clone --no-checkout https://github.com/sohan10012/HTML-CSS-JS.git
     ```
 2. **Navigate to the project directory**:
     ```bash
-    cd registration-form
+    cd HTML-CSS-JS
     ```
+3. **Initialize sparse-checkout**:
+   ```bash
+    git sparse-checkout init --cone
+    ```
+4. **Set the folder you want to clone**:
+   ```bash
+    git sparse-checkout set "Registration form"
+    ```  
+5. **Checkout the files**:
+   ```bash
+    git checkout
+    ```    
 3. **Open `index.html` in your browser** to view the form.
 
 ## File Structure
