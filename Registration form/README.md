@@ -45,7 +45,8 @@
   
 ## Screenshots
 
-![Project Screenshot](Stopwatchimage.png)
+![Project Screenshot](img1.png)
+![Project Screenshot](img2.png)
 
 ## Contributing
 
