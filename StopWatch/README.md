@@ -32,7 +32,7 @@ Welcome to the Stopwatch Project! This project is a simple yet functional stopwa
 
 ## Screenshots
 
-![App Screenshot](https://github.com/sohan10012/JavaScript/blob/master/Screenshot.png)
+![Project Screenshot](StopWatch/Stopwatchimage.png)
 
 ## Contributing
 
