@@ -27,8 +27,6 @@
 
 ## Usage
 
-## Usage
-
 1. **Clone the repository**:
     ```bash
     git clone --no-checkout https://github.com/sohan10012/HTML-CSS-JS.git
