@@ -1,0 +1,54 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hsl(0, 1%, 84%);
+}
+
+.temp{
+    display: block;
+    text-align: center;
+    background-color: white;
+    border: 2px transparent;
+    width: 250px;
+    margin: 70px auto;
+    height: 280px;
+    box-shadow: 5px 5px 10px rgba(12, 11, 11, 0.555);
+}
+
+h2{
+    color: hsl(240, 70%, 54%);
+}
+
+#tb{
+    width: 35%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5em;
+    border: 2px solid rgba(10, 7, 7, 0.571);
+    margin-bottom: 15px;
+}
+
+#submit{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    margin-top: 25px;
+    width: 25%;
+    height: 30px;
+    border: none;
+}
+
+.degree{
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+
+#submit:hover{
+    cursor: pointer;
+}
+
+#display{
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 1.5em;
+}

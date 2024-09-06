@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #121212;
+    font-family: 'Digital-7', sans-serif;
+    color: #ffffff;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+}
+
+#head {
+    margin-top: 20px;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+#display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #000000;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    border: 5px solid #333;
+}
+
+#timer {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #00ff00;
+}
+
+#millisecond {
+    font-size: 20px;
+}
+
+#buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+}
+
+#start {
+    background-color: #4CAF50;
+    color: white;
+    box-shadow: 0 4px #2e7d32;
+    border-radius: 50%;
+}
+
+#stop {
+    background-color: #f44336;
+    color: white;
+    box-shadow: 0 4px #c62828;
+    border-radius: 50%;
+}
+
+#reset {
+    background-color: #9c27b0;
+    color: white;
+    box-shadow: 0 4px #6a1b9a;
+    border-radius: 50%;
+}
+
+.style {
+    height: 60px;
+    width: 60px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    margin-left: 8px;
+}
+
+.style:hover {
+    opacity: 0.8;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.style:active {
+    box-shadow: 0 2px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+}
