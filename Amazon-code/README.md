@@ -50,8 +50,8 @@
 
 ## File Structure
 
-- `index.html`: The main HTML file for the Amazon.in clone.
-- `style.css`: The CSS file for styling the website.
+- `amazon.html`: The main HTML file for the Amazon.in clone.
+- `amastyle.css`: The CSS file for styling the website.
 
 
 ## Screenshots
