@@ -41,7 +41,7 @@ Welcome to the Stopwatch Project! This project is a simple yet functional stopwa
    ```bash
     git checkout
     ```    
-3. **Open `index.html` in your browser** to view the form.
+6. **Open `index.html` in your browser** to view the form.
 
 ## Screenshots
 
