@@ -7,7 +7,7 @@
 - Technologies Used
 - Usage
 - File Structure
-- Screenshots
+- Screenshot
 - Contributing
 
 ## Features
