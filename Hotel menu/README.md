@@ -1,6 +1,4 @@
 
-
-```markdown
 # Cafe Menu Project
 
 ## Table of Contents
@@ -42,12 +40,12 @@
 
 ## Screenshots
 
-![Hotel Menu](img.png)
+![Coffee Menu](img1.png)
+![Desserts Menu](img2.png)
 
 ## Contributing
 
 If you would like to contribute to this project, please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
-Feel free to customize this template further to fit your project's specific needs!
-```
+
 
