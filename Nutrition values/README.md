@@ -42,12 +42,12 @@
    ```bash
     git checkout
     ```    
-6. **Open `index.html` in your browser** to view the form.
+6. **Open `nutrition.html` in your browser** to view the form.
 
 ## File Structure
 
-- `index.html`: The main HTML file containing the Nutrition Facts label.
-- `styles.css`: The CSS file for styling the label.
+- `nutrition.html`: The main HTML file containing the Nutrition Facts label.
+- `nutrition.css`: The CSS file for styling the label.
 
 ## Screenshot
 
