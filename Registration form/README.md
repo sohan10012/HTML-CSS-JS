@@ -47,11 +47,11 @@
    ```bash
     git checkout
     ```    
-6. **Open `index.html` in your browser** to view the form.
+6. **Open `registration.html` in your browser** to view the form.
 
 ## File Structure
 
-- `index.html`: The main HTML file containing the registration form.
+- `registration.html`: The main HTML file containing the registration form.
 - `registration.css`: The CSS file for styling the form.
 - `registration.js`: The JavaScript file for client-side functionality.
   
