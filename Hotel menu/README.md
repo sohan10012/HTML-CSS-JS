@@ -21,27 +21,38 @@
 - **HTML**: For structuring the menu.
 - **CSS**: For styling the menu (linked as `menu.css`).
 
-## Usage
+## How to Use
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/cafe-menu.git
+    git clone --no-checkout https://github.com/sohan10012/HTML-CSS-JS.git
     ```
 2. **Navigate to the project directory**:
     ```bash
-    cd cafe-menu
+    cd HTML-CSS-JS
     ```
-3. **Open `index.html` in your browser** to view the menu.
+3. **Initialize sparse-checkout**:
+    ```bash
+    git sparse-checkout init --cone
+    ```
+4. **Set the folder you want to clone**:
+    ```bash
+    git sparse-checkout set "Hotel menu"
+    ```
+5. **Checkout the files**:
+    ```bash
+    git checkout
+    ```
+6. **Open `index.html` in your browser** to view the form.
 
 ## File Structure
 
-- `index.html`: The main HTML file for the cafe menu.
+- `menu.html`: The main HTML file for the cafe menu.
 - `menu.css`: The CSS file for styling the menu.
 
 ## Screenshots
 
-![Coffee Menu](img1.png)
-![Desserts Menu](img2.png)
+![Hotel Menu](img.png)
 
 ## Contributing
 
