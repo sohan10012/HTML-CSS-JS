@@ -52,7 +52,7 @@
 
 ## Screenshots
 
-![Digital-Clock](image.png)
+![Digital-Clock](img.png)
 
 ## Contributing
 
