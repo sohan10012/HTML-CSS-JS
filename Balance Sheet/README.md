@@ -46,7 +46,7 @@
 
 ## File Structure
 
-- `index.html`: The main HTML file for the balance sheet.
+- `balancesheet.html`: The main HTML file for the balance sheet.
 - `balancesheet.css`: The CSS file for styling the balance sheet.
 
 ## Screenshots
