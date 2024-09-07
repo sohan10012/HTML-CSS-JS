@@ -1,4 +1,4 @@
-Sure! Here's the README file content for your Cafe Menu project:
+
 
 ```markdown
 # Cafe Menu Project
