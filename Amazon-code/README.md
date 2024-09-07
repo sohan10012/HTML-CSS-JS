@@ -53,12 +53,13 @@
 - `index.html`: The main HTML file for the Amazon.in clone.
 - `style.css`: The CSS file for styling the website.
 
+
 ## Screenshots
 
-(screenshot1.png)
-(screenshot2.png)
-(screenshot3.png)
-(screenshot4.png)
+![Project Screenshot](screenshot1.png)
+![Project Screenshot](screenshot2.png)
+![Project Screenshot](screenshot3.png)
+![Project Screenshot](screenshot4.png)
 
 ## Contributing
 
