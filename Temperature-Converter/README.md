@@ -34,7 +34,7 @@ The web application is built using **HTML**, **CSS**, and **JavaScript**. It pro
     ```bash
     git checkout
     ```
-6. **Open `index.html` in your browser** to view the form.
+6. **Open `DegreetoFahrenheit.html` in your browser** to view the form.
 
 ## Screenshots
 
