@@ -20,17 +20,29 @@
 - **CSS**: For styling the clock (linked as `styles.css`).
 - **JavaScript**: For updating the time in real-time (linked as `java.js`).
 
-## Usage
+## How to Use
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/digital-clock.git
+    git clone --no-checkout https://github.com/sohan10012/HTML-CSS-JS.git
     ```
 2. **Navigate to the project directory**:
     ```bash
-    cd digital-clock
+    cd HTML-CSS-JS
     ```
-3. **Open `index.html` in your browser** to view the digital clock.
+3. **Initialize sparse-checkout**:
+   ```bash
+    git sparse-checkout init --cone
+    ```
+4. **Set the folder you want to clone**:
+   ```bash
+    git sparse-checkout set "Digital-Clock"
+    ```  
+5. **Checkout the files**:
+   ```bash
+    git checkout
+    ```    
+6. **Open `index.html` in your browser** to view the form.
 
 ## File Structure
 
