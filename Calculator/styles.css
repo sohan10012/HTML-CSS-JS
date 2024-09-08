@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#maincontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 560px;
+    border: 3px solid rgb(9, 9, 9);
+    margin: 70px auto;
+    border-radius: 20px;
+}
+
+#display {
+    height: 170px;
+    width: 280px;
+    text-align: end;
+    font-size: 50px;
+    border-radius: 20px;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: hidden;
+    justify-content: flex-end;
+    white-space: nowrap;
+}
+
+#content{
+    position: absolute;
+    right: 23px;
+    top: 40px;
+    white-space: nowrap;
+}
+
+
+
+#bigcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.smallcontainer{
+    display: flex;
+    font-size: 20px;
+    height: 60px;
+    width: 280px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.buttons{
+    color: white;
+    height: 58px;
+    width: 58px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50%;
+    background-color: rgb(11, 12, 12);
+    margin-left: 5.5px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    border: 1px transparent;
+    transition: all 0.2s ease;
+}
+
+.num{
+    font-weight: 500;
+    background-color: rgb(20, 22, 22);
+}
+
+.orange{
+    background-color: rgb(241, 62, 8);
+}
+
+.white{
+    background-color: rgba(252, 252, 249, 0.897);
+    color: black;
+    font-size: 20px;
+}
+
+.buttons:active{
+    height: 56px;
+    width: 56px;
+    background-color: rgb(33, 36, 36);
+    cursor: pointer;
+}
+.orange:hover{
+    background-color: rgb(189, 62, 27);
+}
+
+.white:hover{
+    background-color: rgba(252, 252, 249, 0.705);
+}
+
+
+

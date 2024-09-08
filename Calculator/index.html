@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="maincontainer">
+    <div id="display">
+        <p id="content"></p>
+    </div>
+    <div class="line"></div>
+    <div  id="bigcontainer">
+        <div class="smallcontainer" id="AC">
+            <button onclick="Cleardisplay()" class="buttons white">AC</button>
+            <button onclick="Appendtodisplay('%')" class="buttons white"><i class="fas fa-percentage"></i></button>
+            <button onclick="Delete()" class="buttons white"><i class="fa-solid fa-delete-left"></i></button>
+            <button onclick="Appendtodisplay('/')" class="buttons orange"><i class="fa-solid fa-divide"></i></button>
+        </div>
+        <div class="smallcontainer" id="seveneight">
+            <button onclick="Appendtodisplay('7')" class="buttons num">7</button>
+            <button onclick="Appendtodisplay('8')" class="buttons num">8</button>
+            <button onclick="Appendtodisplay('9')" class="buttons num">9</button>
+            <button onclick="Appendtodisplay('*')" class="buttons orange"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="smallcontainer" id="fourfive">
+            <button onclick="Appendtodisplay('4')" class="buttons num">4</button>
+            <button onclick="Appendtodisplay('5')" class="buttons num">5</button>
+            <button onclick="Appendtodisplay('6')" class="buttons num">6</button>
+            <button onclick="Appendtodisplay('-')" class="buttons orange"><i class="fa-solid fa-minus"></i></button>
+        </div>
+        <div class="smallcontainer" id="onetwo">
+            <button onclick="Appendtodisplay('1')" class="buttons num">1</button>
+            <button onclick="Appendtodisplay('2')" class="buttons num">2</button>
+            <button onclick="Appendtodisplay('3')" class="buttons num">3</button>
+            <button onclick="Appendtodisplay('+')" class="buttons orange"><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <div class="smallcontainer" id="zero">
+            <button onclick="Appendtodisplay('00')" class="buttons num">00</button>
+            <button onclick="Appendtodisplay('0')" class="buttons num">0</button>
+            <button onclick="Appendtodisplay('.')" class="buttons num">.</button>
+            <button onclick="calculate()" class="buttons orange"><i class="fa-solid fa-equals"></i></button>
+        </div>
+    </div>
+    </div>  
+    <script src="java.js"></script>  
+</body>
+</html>
