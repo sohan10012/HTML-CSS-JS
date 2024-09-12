@@ -38,7 +38,7 @@ The web application is built using **HTML**, **CSS**, and **JavaScript**. It pro
 
 ## Screenshots
 
-[!Project Screenshot](imgss.png)
+![Project Screenshot](imgss.png)
 
 ## Contributing
 
