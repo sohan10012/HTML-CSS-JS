@@ -14,26 +14,28 @@ The web application is built using **HTML**, **CSS**, and **JavaScript**. It pro
 
 ## How to Use
 
+## Usage
+
 1. **Clone the repository**:
     ```bash
-    git clone --no-checkout https://github.com/yourusername/HTML-CSS-JS.git
+    git clone --no-checkout https://github.com/sohan10012/HTML-CSS-JS.git
     ```
 2. **Navigate to the project directory**:
     ```bash
     cd HTML-CSS-JS
     ```
 3. **Initialize sparse-checkout**:
-    ```bash
+   ```bash
     git sparse-checkout init --cone
     ```
 4. **Set the folder you want to clone**:
-    ```bash
-    git sparse-checkout set "Piano-Project"
-    ```
+   ```bash
+    git sparse-checkout set "Piano"
+    ```  
 5. **Checkout the files**:
-    ```bash
+   ```bash
     git checkout
-    ```
+    ```    
 6. **Open `index.html` in your browser** to view the piano.
 
 ## Screenshots
