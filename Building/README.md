@@ -53,8 +53,9 @@
 
 ## Screenshots
 
-![Building](img1.png)
-![Building](img2.jpg)
+![Project Screenshot](img1.png)
+![Project Screenshot](img2.png)
+
 
 ## Contributing
 
