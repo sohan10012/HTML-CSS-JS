@@ -30,7 +30,7 @@ This IPL website clone project was created for a competition. The goal was to re
 
 1. **Clone the repository**:
     ```bash
-    git clone --no-checkout https://github.com/yourusername/IPL-Website-Clone.git
+    git clone --no-checkout https://github.com/sohan10012/HTML-CSS-JS.git
     ```
 2. **Navigate to the project directory**:
     ```bash
