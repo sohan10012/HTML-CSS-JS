@@ -58,7 +58,8 @@ This IPL website clone project was created for a competition. The goal was to re
 
 ## Screenshots
 
-!IPL-Website-Clone
+![Project Screenshot](img1.png)
+![Project Screenshot](img2.png)
 
 ## Contributing
 
