@@ -25,11 +25,11 @@
 
 1. **Clone the repository**:
     ```bash
-    git clone --no-checkout https://github.com/yourusername/Building.git
+    git clone --no-checkout https://github.com/sohan10012/HTML-CSS-JS.git
     ```
 2. **Navigate to the project directory**:
     ```bash
-    cd Building-Project
+    cd Building
     ```
 3. **Initialize sparse-checkout**:
    ```bash
@@ -53,8 +53,8 @@
 
 ## Screenshots
 
-![Building-Project](img1.jpg)
-![Building-Project](img2.jpg)
+![Building](img1.png)
+![Building](img2.jpg)
 
 ## Contributing
 
