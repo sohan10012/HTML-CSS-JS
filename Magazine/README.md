@@ -24,7 +24,7 @@
 
 1. **Clone the repository**:
     ```bash
-    git clone --no-checkout https://github.com/yourusername/magazine-project.git
+    git clone --no-checkout https://github.com/sohan10012/HTML-CSS-JS.git
     ```
 2. **Navigate to the project directory**:
     ```bash
@@ -51,7 +51,12 @@
 
 ## Screenshots
 
-!Magazine
+![Magazine](imagess1.png)
+![Magazine](imagess2.png)
+![Magazine](imagess3.png)
+![Magazine](imagess4.png)
+![Magazine](imagess5.png)
+![Magazine](imagess6.png)
 
 ## Contributing
 
