@@ -55,7 +55,6 @@
 ![Magazine](imagess2.png)
 ![Magazine](imagess3.png)
 ![Magazine](imagess4.png)
-![Magazine](imagess5.png)
 ![Magazine](imagess6.png)
 
 ## Contributing
