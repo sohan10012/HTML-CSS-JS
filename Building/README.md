@@ -29,7 +29,7 @@
     ```
 2. **Navigate to the project directory**:
     ```bash
-    cd Building
+    cd HTML-CSS-JS
     ```
 3. **Initialize sparse-checkout**:
    ```bash
