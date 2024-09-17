@@ -28,7 +28,7 @@
     ```
 2. **Navigate to the project directory**:
     ```bash
-    cd Magazine
+    cd HTML-CSS-JS
     ```
 3. **Initialize sparse-checkout**:
    ```bash
