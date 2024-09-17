@@ -28,7 +28,7 @@
     ```
 2. **Navigate to the project directory**:
     ```bash
-    cd magazine-project
+    cd Magazine
     ```
 3. **Initialize sparse-checkout**:
    ```bash
