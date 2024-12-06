@@ -1,15 +1,33 @@
-require("dotenv").config();
-
 const weatherform = document.querySelector(".Weatherform");
 const getweather = document.getElementById("getweather");
 const bigbox = document.getElementById("bigbox");
 const card = document.querySelector(".card");
-const ApiKey = process.env.ApiKey;
+const ApiKey = ""/*Your api key here*/ ;
+
+/*
+ * To use this weather app, you need an API key from OpenWeatherMap.
+ * Follow these steps to get your API key and add it to the JavaScript file:
+ *
+ * 1. Go to the OpenWeatherMap website: https://openweathermap.org/appid
+ * 2. Sign up for a new account if you don't already have one, or log in if you have an existing account.
+ * 3. Once logged in, navigate to the "API keys" section of your account.
+ * 4. Click on the "Create Key" button to generate a new API key.
+ * 5. Copy the API key provided.
+ * 6. Open the JavaScript file in your project where the API key is used.
+ * 7. Locate the line that defines the `ApiKey` variable:
+ *    const ApiKey = "your_api_key_here";
+ * 8. Replace `"your_api_key_here"` with the API key you copied.
+ * 9. Save the JavaScript file.
+ *
+ * Your API key is now set up and ready to use in the weather app.
+ */
+
+
 
 window.addEventListener("load", () => {
   updateClock();
   setInterval(updateClock, 1000);
-}); /*clock constant run*/
+});/*clock constant run*/ 
 
 weatherform.addEventListener("submit", async (event) => {
   event.preventDefault();
@@ -100,15 +118,15 @@ function display(data, city) {
 
 function emoji(weatherid) {
   if (weatherid >= 200 && weatherid < 300) {
-    return "⛈️ Thunderstorm";
+    return "⛈️ Storm";
   } else if (weatherid >= 300 && weatherid < 400) {
-    return "🌧️ Drizzle";
+    return "🌧️Drizzle";
   } else if (weatherid >= 500 && weatherid < 600) {
     return "🌦️ Rain";
   } else if (weatherid >= 600 && weatherid < 700) {
     return "❄️ Snow";
   } else if (weatherid >= 700 && weatherid < 800) {
-    return "🌫️ Atmosphere";
+    return "🌫️ Fog";
   } else if (weatherid === 800) {
     return "☀️ Clear";
   } else if (weatherid > 800 && weatherid < 900) {
