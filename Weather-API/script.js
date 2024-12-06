@@ -1,14 +1,15 @@
+require("dotenv").config();
+
 const weatherform = document.querySelector(".Weatherform");
 const getweather = document.getElementById("getweather");
 const bigbox = document.getElementById("bigbox");
 const card = document.querySelector(".card");
-const ApiKey = "e548f25c635bbd99eb1ee047996ae296";
-
+const ApiKey = process.env.ApiKey;
 
 window.addEventListener("load", () => {
   updateClock();
   setInterval(updateClock, 1000);
-});/*clock constant run*/ 
+}); /*clock constant run*/
 
 weatherform.addEventListener("submit", async (event) => {
   event.preventDefault();
