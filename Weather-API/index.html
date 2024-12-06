@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-API</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="form-container">
+    <form class="Weatherform">
+        <input type="text" id="getweather" placeholder="Enter City Name">
+        <button type="submit" id="submit">Find</button>
+    </form>  /*form for input*/
+    </div>
+    <div class="card"></div>
+    <div id="bigbox">
+        <div id="place-container">
+            <div id="placec"><p id="place">UDUPI, INDIA</p></div>
+            <!-- <div id="button-container"><button id="plus" onclick="showform()">+</button></div>     -->
+            <div id="empty-cont">
+                
+            </div>
+        </div> 
+        <div id="degree-date">
+            <div id="degree">
+                27°
+            </div>
+            <div id="temp-cont">
+                <div id="icon">
+                    <p id="icon">☀️ clear</p>   
+                </div>
+                <div id="date-time">
+                    <p id="day-date">FRI 30</p>
+                    <p id="month-year">JAN 2024 </p>   
+                </div>
+            </div>
+        </div>
+        <div id="clock-container">
+            <div id="clock">00:00:00</div>
+        </div>
+    </div>
+    
+<script src="script.js"></script>    
+</body>
+</html>
