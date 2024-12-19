@@ -1,6 +1,11 @@
 
 # Facebook Clone Project
 
+## Introduction
+
+This project is my first attempt at building a responsive web application using Vite and Tailwind CSS. It is a clone of the Facebook interface, designed to adjust to different screen sizes for optimal viewing. The project aims to replicate the responsive design and functionality of Facebook, providing a modern and optimized user experience.
+
+
 ## Table of Contents
 
 - Features
@@ -31,7 +36,7 @@
     ```
 2. **Navigate to the project directory**:
     ```bash
-    cd facebook-clone
+    cd Facebook-Clone
     ```
 3. **Install dependencies**:
     ```bash
