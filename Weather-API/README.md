@@ -1,6 +1,6 @@
 # 🌤️ **Weather Application**
 
-This repository contains the code for a web application that fetches and displays weather information for a specified city.
+This repository contains the code for a web application that fetches and displays weather information for a specified city around thr world.
 
 ## 📝 **Description**
 
