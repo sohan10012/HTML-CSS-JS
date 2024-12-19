@@ -32,7 +32,7 @@ This project is my first attempt at building a responsive web application using 
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/facebook-clone.git
+    git clone https://github.com/sohan10012/HTML-CSS-JS.git
     ```
 2. **Navigate to the project directory**:
     ```bash
