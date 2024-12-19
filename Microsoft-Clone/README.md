@@ -64,7 +64,7 @@ This project is a clone of the Microsoft website interface, built using HTML, Ta
 
 **SCREENSHOT**
 <div align="center">
-    <img src="img.png" alt="Project Screenshot">
+    <img src="public/img.png" alt="Project Screenshot">
 </div>
 
 ## Contributing
