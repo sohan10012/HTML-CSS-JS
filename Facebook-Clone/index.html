@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/src/assets/style.css">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <title>Facebook - log in or sign up</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body class="bg-customwhite">
+  <div class="flex flex-col justify-center items-center w-full h-screen lg:mt-48 lg:flex-row xl:flex-row">
+    <div class="w-full lg:w-1/2 flex flex-col items-center lg:items-start">
+      <img class="h-28 lg:ml-26p md:mx-auto sm:mx-auto" src="/logo.svg" alt="Logo">
+      <p class="text-center  font-sans text-3xl md:text-center sm:text-center lg:text-left w-2/3 xl:text-left sm:mx-auto md:mx-auto lg:w-20p lg:ml-30p xl:ml-30p 2xl:ml-32p sm:mb-10 md:mb-14">
+        Facebook helps you connect and share with the people in your life.
+      </p>
+    </div>
+    <div class="w-full lg:w-1/2 -mt-8">
+      <form class=" mt-10 w-96 mx-auto h-auto flex flex-col border shadow-xl rounded-lg lg:ml-20 sm:mt-10 md:mt-10 sm:mx-auto md:mx-auto mb-5">
+        <input class="h-12 pl-3 placeholder:text-lg outline-blue-500 outline-0 placeholder:font-sans mx-5 mt-4 border rounded-md border-gray-300 focus:border-blue-500" type="text" placeholder="Email address or Phone number">
+        <input class="h-12 pl-3 placeholder:text-lg outline-blue-500 outline-0 placeholder:font-sans mt-3 mx-5 mb-5 border rounded-md border-gray-300 focus:border-blue-500" type="password" placeholder="Password">
+        <button class="h-12 bg-specialblue hover:bg-customBlue text-xl font-bold text-white mx-5 border rounded-md" type="submit">Log in</button>
+        <a href="#" class="content-center mt-4 mb-5 ml-32 text-sm text-blue-600">Forgotten password?</a>
+        <hr>
+        <button class="h-12 mt-5 w-fit px-4 mx-auto mb-6 bg-specialgreen hover:bg-customGreen border rounded-md text-white font-bold text-base" type="submit">Create new account</button>
+      </form>
+      <p class="mx-30p text-center lg-xl:mr-10p xl:mr-20p xl-2xl:mr-30p 2xl-3xl:mr-35p text-sm sm:mx-auto md:text-center sm:text-center md:mx-auto">
+        <span class=" font-bold cursor-pointer hover:underline">Create a Page </span>
+        <span>for a celebrity, brand or business.</span>
+      </p>
+    </div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
