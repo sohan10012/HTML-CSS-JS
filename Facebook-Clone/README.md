@@ -61,10 +61,11 @@
 ## Screenshots
 
 **RESPOSIVENESS SCREENSHOT**
-
-![Project Screenshot](ss1.png)
-![Project Screenshot](ss2.png)
-![Project Screenshot](ss3.png)
+<div align="center">
+    <img src="ss1.png" alt="Laptop screen">
+    <img src="ss2.png" alt="Tablet screen"> 
+    <img src="ss3.png" alt="Mobile screen"> 
+</div>
 
 ## Contributing
 
